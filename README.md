@@ -23,7 +23,9 @@ in Arduino >> hardware >>espressif>>esp32>>partitions you have a file default.cs
 then copy that instead inside the "default.csv"
 
 #Name,   Type, SubType, Offset,  Size, Flags
+
 nvs,      data,   nvs,    0x9000,   0x5000,
+
 otadata,  data,   ota,    0xe000,   0x2000,
 app0,     app,    ota_0,  0x10000,  0x200000,
 app1,     app,    ota_1,  0x210000, 0x101000,
