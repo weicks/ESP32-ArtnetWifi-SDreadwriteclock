@@ -27,9 +27,13 @@ then copy that instead inside the "default.csv"
 nvs,      data,   nvs,    0x9000,   0x5000,
 
 otadata,  data,   ota,    0xe000,   0x2000,
+
 app0,     app,    ota_0,  0x10000,  0x200000,
+
 app1,     app,    ota_1,  0x210000, 0x101000,
+
 eeprom,   data,   0x99,   0x311000, 0x1000,
+
 spiffs,   data,   spiffs, 0x312000, 0xEE000,
 
 //it will reduce the OTA and the SPIFF size and extend the flash size to  3mo when it will compile
