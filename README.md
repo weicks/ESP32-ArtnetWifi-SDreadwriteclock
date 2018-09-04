@@ -50,4 +50,4 @@ so instead of 1310720 put 2097152
 ------------------------------------------------------------------------------------------------------
 
 I am open for every idea or improvements to the code.
-If you wana see some of my other artobjects you are welcome to visit my homepage: https://kunstkraft.jimdo.com/
+If you wana see more of my artobjects you are welcome to visit my homepage: https://kunstkraft.jimdo.com/
