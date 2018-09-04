@@ -33,13 +33,18 @@ spiffs,   data,   spiffs, 0x312000, 0xEE000,
 
 //it will reduce the OTA and the SPIFF size and extend the flash size to  3mo when it will compile
 
-then we need to tell Arduino that you have increase that
-open the file
+then we need to tell Arduino that you have increase that, open the file
+
 arduino>>hardware>>expressif>> board.txt
+
 find you board name for instance I am using "ESP32 Dev module"
+
 esp32.name=ESP32 Dev Module
+
 esp32.upload.tool=esptool
+
 esp32.upload.maximum_size=2097152  <= ,normally you have 1310720
+
 so instead of 1310720 put 2097152
 
 ------------------------------------------------------------------------------------------------------
