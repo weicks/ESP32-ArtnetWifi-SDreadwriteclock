@@ -4,6 +4,9 @@ With this project its possible to drive Ws2812 Leds with Artnet over Wifi (with 
 I am a passionate technician and like to build and create works of art. Over the last few years, I have decided to combine technic with art and experimenting with this things will never end.
 I've been working with light and light objects since my childhood and got an insight into programming in my school days. Unfortunately, my knowledge is still not as good and with the grate help of Yves Bazin i got this cool work of art.
 
+For this project you will need the latest artnet library from Yves Bazin which you can find here:
+https://github.com/hpwit/artnet
+
 Here you are the mounted matrixsreen on the wall. It is currently provisional because I will soon change my flat.
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/wall1.jpg)
 
