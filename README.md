@@ -7,7 +7,7 @@ I've been working with light and light objects since my childhood and got an ins
 For this project you will need the latest artnet library from Yves Bazin which you can find here:
 https://github.com/hpwit/artnet
 
-Here you are the mounted matrixsreen on the wall. It is currently provisional because I will soon change my flat.
+Here you are the mounted matrixsreen on the wall.
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/wall1.jpg)
 
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/wall.jpg)
@@ -21,7 +21,7 @@ These are the settings which worked fine with my controller:
 in Arduino >> hardware >>espressif>>esp32>>partitions you have a file default.csv make a copy of that file
 then copy that instead inside the "default.csv"
 
-# Name,   Type, SubType, Offset,  Size, Flags
+#Name,   Type, SubType, Offset,  Size, Flags
 nvs,      data,   nvs,    0x9000,   0x5000,
 otadata,  data,   ota,    0xe000,   0x2000,
 app0,     app,    ota_0,  0x10000,  0x200000,
@@ -43,7 +43,8 @@ esp32.name=ESP32 Dev Module
 esp32.upload.tool=esptool
 esp32.upload.maximum_size=2097152  <= ,normally you have 1310720
 
-so instead of 1310720 put 2097152 
+so instead of 1310720 put 2097152
+
 ------------------------------------------------------------------------------------------------------
 
 I am open for every idea or improvements to the code.
