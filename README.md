@@ -13,13 +13,9 @@ The pin assignment is like in the picture below:
 
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/panels.JPG)
 
-You need to install Blynk and also to create an account there. Download the app of your choise on your phone (iOS/Android) https://www.blynk.cc/ The setup is very easy! Only a few buttens and 2 sliders as you can see in the pics:
+If you want the wirelesscontroll with your phone, you have to install Blynk and also to create an account. Download the app of your choise (iOS/Android) https://www.blynk.cc/ The setup is very easy! Only a few buttens and 2 sliders as you can see in the pics:
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/blynk1.JPG)
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/blynk.JPG)
-
-And here it is, the mounted matrixscreen on the wall :)
-
-![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/wall2.jpg)
 
 To get enough space on my ESP32 (D1 Mini) i had to respace the partition.
 These are the settings which worked fine with my controller:
@@ -55,8 +51,10 @@ esp32.upload.tool=esptool
 esp32.upload.maximum_size=2097152  <= ,normally you have 1310720
 
 so instead of 1310720 put 2097152
-
 ------------------------------------------------------------------------------------------------------
+And here it is, the mounted matrixscreen on the wall. Isn´t it beautiful? :)
+
+![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/wall2.jpg)
 
 
 I am open for every idea or improvements to the code.
