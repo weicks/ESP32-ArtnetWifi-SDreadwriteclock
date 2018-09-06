@@ -4,13 +4,19 @@ With this project it´s possible to drive Ws2812 Leds with Artnet over Wifi (wit
 I am a passionate technician and like to build and create works of art. With the great help of Yves Bazin i got this cool work of art real. For this project you will need the latest artnet library from Yves Bazin which you can find here:
 https://github.com/hpwit/artnet
 
-The mounted matrixscreen on the wall.
+For this project i bought ten 16x16 Matrixscreens and a powersupply with 5V and 40A  (e.g. you get them on ebay or aliexpress at very low costs).
+![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/back.jpg)
+
+The pin assignment is like in the picture below:
+![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/panels.jpg)
+
+You need to install Blynk and also to create an account there. Download the app of your choise on your phone (iOS/Android) https://www.blynk.cc/ The setup is very easy! Only a few buttens and 2 sliders as you can see in the pic:
+![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/blynk1.jpg)
+![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/blynk.jpg)
+
+And her it is the mounted matrixscreen on the wall.
 
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/wall2.jpg)
-
-![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/screen.jpg)
-
-![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/mounting.jpg)
 
 To get enough space on my ESP32 (D1 Mini) i had to respace the partition.
 These are the settings which worked fine with my controller:
@@ -48,6 +54,7 @@ esp32.upload.maximum_size=2097152  <= ,normally you have 1310720
 so instead of 1310720 put 2097152
 
 ------------------------------------------------------------------------------------------------------
+
 
 I am open for every idea or improvements to the code.
 If you wana see more of my artobjects you are welcome to visit my homepage: https://kunstkraft.jimdo.com/
