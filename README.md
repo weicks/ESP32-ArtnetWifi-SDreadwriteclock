@@ -13,7 +13,9 @@ The pin assignment is like in the picture below:
 
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/panels.JPG)
 
+
 If you want the wirelesscontroll with your phone, you have to install Blynk and also to create an account. Download the app of your choise (iOS/Android) https://www.blynk.cc/ The setup is very easy! Only a few buttens and 2 sliders as you can see in the pics:
+
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/blynk1.JPG)
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/blynk.JPG)
 
