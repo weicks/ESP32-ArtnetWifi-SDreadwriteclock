@@ -51,6 +51,7 @@ esp32.upload.tool=esptool
 esp32.upload.maximum_size=2097152  <= ,normally you have 1310720
 
 so instead of 1310720 put 2097152
+
 ------------------------------------------------------------------------------------------------------
 And here it is, the mounted matrixscreen on the wall. Isn´t it beautiful? :)
 
