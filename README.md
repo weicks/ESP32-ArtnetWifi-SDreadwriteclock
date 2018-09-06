@@ -8,6 +8,7 @@ For this project i bought ten 16x16 Matrixscreens, a powersupply with 5V and 40A
 
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/back.JPG)
 
+
 The pin assignment is like in the picture below:
 
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/panels.JPG)
@@ -16,7 +17,7 @@ You need to install Blynk and also to create an account there. Download the app 
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/blynk1.JPG)
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/blynk.JPG)
 
-And her it is the mounted matrixscreen on the wall.
+And here it is, the mounted matrixscreen on the wall :)
 
 ![image](https://github.com/weicks/ESP32-ArtnetWifi-SDreadwriteclock/blob/master/pics/wall2.jpg)
 
